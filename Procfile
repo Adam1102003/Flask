@@ -1,1 +1,1 @@
-web: gunicorn Flask:app
+web: python download_assets.py && python Flask.py
